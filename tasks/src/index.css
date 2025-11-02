@@ -5,7 +5,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #5c5a5a;
 
-  min-height: 200vh;
+  min-height: auto;
 
   
 }
@@ -14,17 +14,25 @@ th{
   background-color: #161616;
   border: #ffffff 2px solid;
   padding: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 td{
-  background-color: #474141;
+  background-color: #716b6b;
   border: #ffffff 2px solid;
   padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 label, input, button {
   font-size: 1.4em;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+  color: #111010;
 }
 
 button {
@@ -41,4 +49,15 @@ button:hover {
   background-color: #ffffff;
   color: black;
   transition: all 0.3s ease;
+}
+
+
+textarea{
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+select{
+  color: #000;
 }
